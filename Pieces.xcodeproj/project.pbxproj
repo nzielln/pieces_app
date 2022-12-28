@@ -7,18 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9D34F7827A4BFF8004EAAEE /* EmoticonMoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D34F7727A4BFF8004EAAEE /* EmoticonMoods.swift */; };
+		E9D34F7A27A4D085004EAAEE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D34F7927A4D085004EAAEE /* File.swift */; };
+		E9D34F7E27A5FD5A004EAAEE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D34F7D27A5FD5A004EAAEE /* ImagePicker.swift */; };
+		E9D34F8127A5FDA5004EAAEE /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D34F8027A5FDA5004EAAEE /* EditorView.swift */; };
+		E9DFD8C927A08F9700702389 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C127A08F6000702389 /* Lato-LightItalic.ttf */; };
+		E9DFD8CA27A08F9A00702389 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C327A08F6000702389 /* Lato-Black.ttf */; };
+		E9DFD8CB27A08F9C00702389 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C827A08F6000702389 /* Lato-BlackItalic.ttf */; };
+		E9DFD8CC27A08F9E00702389 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C627A08F6000702389 /* Lato-Bold.ttf */; };
+		E9DFD8CD27A08FA100702389 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8BF27A08F6000702389 /* Lato-BoldItalic.ttf */; };
+		E9DFD8CE27A08FA300702389 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C527A08F6000702389 /* Lato-Italic.ttf */; };
+		E9DFD8CF27A08FA500702389 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C027A08F6000702389 /* Lato-Light.ttf */; };
+		E9DFD8D027A08FA900702389 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C227A08F6000702389 /* Lato-Regular.ttf */; };
+		E9DFD8D127A08FAB00702389 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C427A08F6000702389 /* Lato-Thin.ttf */; };
+		E9DFD8D227A08FAD00702389 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DFD8C727A08F6000702389 /* Lato-ThinItalic.ttf */; };
+		E9DFD8D727A09AAE00702389 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFD8D627A09AAE00702389 /* Debug.swift */; };
+		E9DFD8D927A0A8D600702389 /* SixRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFD8D827A0A8D600702389 /* SixRings.swift */; };
+		E9E3C8B927AE84DD00A9CD8A /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3C8B827AE84DD00A9CD8A /* Labels.swift */; };
+		E9E3C8BB27B197DF00A9CD8A /* AppUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3C8BA27B197DF00A9CD8A /* AppUsers.swift */; };
 		E9F198F0279F1D2100523B54 /* PiecesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F198EF279F1D2100523B54 /* PiecesApp.swift */; };
-		E9F198F2279F1D2100523B54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F198F1279F1D2100523B54 /* ContentView.swift */; };
+		E9F198F2279F1D2100523B54 /* PiecesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F198F1279F1D2100523B54 /* PiecesView.swift */; };
 		E9F198F4279F1D2200523B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F198F3279F1D2200523B54 /* Assets.xcassets */; };
 		E9F198F7279F1D2200523B54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F198F6279F1D2200523B54 /* Preview Assets.xcassets */; };
+		E9F19900279F1E4F00523B54 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F198FF279F1E4F00523B54 /* User.swift */; };
+		E9F19902279F1E5C00523B54 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19901279F1E5C00523B54 /* Entry.swift */; };
+		E9F19907279F1E9D00523B54 /* Dairy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19906279F1E9D00523B54 /* Dairy.swift */; };
+		E9F19909279F1EAE00523B54 /* Galaxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19908279F1EAE00523B54 /* Galaxy.swift */; };
+		E9F1990B279F1EBB00523B54 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1990A279F1EBB00523B54 /* LogIn.swift */; };
+		E9F1990D279F1EC500523B54 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1990C279F1EC500523B54 /* SignUp.swift */; };
+		E9F1990F279F1ECE00523B54 /* ChooseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1990E279F1ECE00523B54 /* ChooseTheme.swift */; };
+		E9F19911279F1FA300523B54 /* NewEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19910279F1FA300523B54 /* NewEntry.swift */; };
+		E9F19913279F1FAB00523B54 /* ViewEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19912279F1FAB00523B54 /* ViewEntry.swift */; };
+		E9F19915279F1FB300523B54 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19914279F1FB300523B54 /* Calendar.swift */; };
+		E9F19917279F1FBE00523B54 /* UploadPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19916279F1FBE00523B54 /* UploadPicture.swift */; };
+		E9F19919279F1FC700523B54 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19918279F1FC700523B54 /* Settings.swift */; };
+		E9F1991B279F1FDD00523B54 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1991A279F1FDD00523B54 /* Mood.swift */; };
+		E9F1991E279F200000523B54 /* Socials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1991D279F200000523B54 /* Socials.swift */; };
+		E9F19920279F201C00523B54 /* ProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1991F279F201C00523B54 /* ProfilePicture.swift */; };
+		E9F19922279F204900523B54 /* UserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19921279F204900523B54 /* UserHeader.swift */; };
+		E9F19924279F205F00523B54 /* ChooseMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19923279F205F00523B54 /* ChooseMood.swift */; };
+		E9F19926279F206C00523B54 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19925279F206C00523B54 /* Profile.swift */; };
+		E9F19928279F20E200523B54 /* MoodListLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19927279F20E200523B54 /* MoodListLight.swift */; };
+		E9F1992A279F20F800523B54 /* TextEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19929279F20F800523B54 /* TextEdit.swift */; };
+		E9F1992C279F212100523B54 /* AddImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1992B279F212100523B54 /* AddImage.swift */; };
+		E9F1992E279F212E00523B54 /* AddLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1992D279F212E00523B54 /* AddLink.swift */; };
+		E9F19930279F214C00523B54 /* EntryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1992F279F214C00523B54 /* EntryCard.swift */; };
+		E9F19932279F216900523B54 /* EntryCourasol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19931279F216900523B54 /* EntryCourasol.swift */; };
+		E9F19934279F21C400523B54 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19933279F21C400523B54 /* Theme.swift */; };
+		E9F19936279F23FB00523B54 /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19935279F23FB00523B54 /* Emoticon.swift */; };
+		E9F19938279F29D700523B54 /* GalaxyRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F19937279F29D700523B54 /* GalaxyRing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9D34F7727A4BFF8004EAAEE /* EmoticonMoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonMoods.swift; sourceTree = "<group>"; };
+		E9D34F7927A4D085004EAAEE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E9D34F7D27A5FD5A004EAAEE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E9D34F8027A5FDA5004EAAEE /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		E9DFD8BF27A08F6000702389 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E9DFD8C027A08F6000702389 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		E9DFD8C127A08F6000702389 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		E9DFD8C227A08F6000702389 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		E9DFD8C327A08F6000702389 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		E9DFD8C427A08F6000702389 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		E9DFD8C527A08F6000702389 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		E9DFD8C627A08F6000702389 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		E9DFD8C727A08F6000702389 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E9DFD8C827A08F6000702389 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E9DFD8D327A0980000702389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9DFD8D627A09AAE00702389 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		E9DFD8D827A0A8D600702389 /* SixRings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixRings.swift; sourceTree = "<group>"; };
+		E9E3C8B827AE84DD00A9CD8A /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		E9E3C8BA27B197DF00A9CD8A /* AppUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsers.swift; sourceTree = "<group>"; };
 		E9F198EC279F1D2100523B54 /* Pieces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pieces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F198EF279F1D2100523B54 /* PiecesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecesApp.swift; sourceTree = "<group>"; };
-		E9F198F1279F1D2100523B54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9F198F1279F1D2100523B54 /* PiecesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecesView.swift; sourceTree = "<group>"; };
 		E9F198F3279F1D2200523B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9F198F6279F1D2200523B54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9F198FF279F1E4F00523B54 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E9F19901279F1E5C00523B54 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		E9F19906279F1E9D00523B54 /* Dairy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dairy.swift; sourceTree = "<group>"; };
+		E9F19908279F1EAE00523B54 /* Galaxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaxy.swift; sourceTree = "<group>"; };
+		E9F1990A279F1EBB00523B54 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		E9F1990C279F1EC500523B54 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		E9F1990E279F1ECE00523B54 /* ChooseTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTheme.swift; sourceTree = "<group>"; };
+		E9F19910279F1FA300523B54 /* NewEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntry.swift; sourceTree = "<group>"; };
+		E9F19912279F1FAB00523B54 /* ViewEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEntry.swift; sourceTree = "<group>"; };
+		E9F19914279F1FB300523B54 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		E9F19916279F1FBE00523B54 /* UploadPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPicture.swift; sourceTree = "<group>"; };
+		E9F19918279F1FC700523B54 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E9F1991A279F1FDD00523B54 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		E9F1991D279F200000523B54 /* Socials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socials.swift; sourceTree = "<group>"; };
+		E9F1991F279F201C00523B54 /* ProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicture.swift; sourceTree = "<group>"; };
+		E9F19921279F204900523B54 /* UserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeader.swift; sourceTree = "<group>"; };
+		E9F19923279F205F00523B54 /* ChooseMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMood.swift; sourceTree = "<group>"; };
+		E9F19925279F206C00523B54 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E9F19927279F20E200523B54 /* MoodListLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodListLight.swift; sourceTree = "<group>"; };
+		E9F19929279F20F800523B54 /* TextEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEdit.swift; sourceTree = "<group>"; };
+		E9F1992B279F212100523B54 /* AddImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImage.swift; sourceTree = "<group>"; };
+		E9F1992D279F212E00523B54 /* AddLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLink.swift; sourceTree = "<group>"; };
+		E9F1992F279F214C00523B54 /* EntryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCard.swift; sourceTree = "<group>"; };
+		E9F19931279F216900523B54 /* EntryCourasol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCourasol.swift; sourceTree = "<group>"; };
+		E9F19933279F21C400523B54 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E9F19935279F23FB00523B54 /* Emoticon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		E9F19937279F29D700523B54 /* GalaxyRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyRing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +123,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9D34F7F27A5FD8D004EAAEE /* UIKit Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9D34F7D27A5FD5A004EAAEE /* ImagePicker.swift */,
+				E9D34F8027A5FDA5004EAAEE /* EditorView.swift */,
+			);
+			path = "UIKit Views";
+			sourceTree = "<group>";
+		};
+		E9DFD8BE27A08F3900702389 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9DFD8C327A08F6000702389 /* Lato-Black.ttf */,
+				E9DFD8C827A08F6000702389 /* Lato-BlackItalic.ttf */,
+				E9DFD8C727A08F6000702389 /* Lato-ThinItalic.ttf */,
+				E9DFD8C627A08F6000702389 /* Lato-Bold.ttf */,
+				E9DFD8BF27A08F6000702389 /* Lato-BoldItalic.ttf */,
+				E9DFD8C527A08F6000702389 /* Lato-Italic.ttf */,
+				E9DFD8C027A08F6000702389 /* Lato-Light.ttf */,
+				E9DFD8C127A08F6000702389 /* Lato-LightItalic.ttf */,
+				E9DFD8C227A08F6000702389 /* Lato-Regular.ttf */,
+				E9DFD8C427A08F6000702389 /* Lato-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E9F198E3279F1D2100523B54 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +168,12 @@
 		E9F198EE279F1D2100523B54 /* Pieces */ = {
 			isa = PBXGroup;
 			children = (
+				E9DFD8D327A0980000702389 /* Info.plist */,
+				E9DFD8BE27A08F3900702389 /* Fonts */,
+				E9F198FE279F1E3E00523B54 /* Models */,
+				E9F198FD279F1D4700523B54 /* Views */,
 				E9F198EF279F1D2100523B54 /* PiecesApp.swift */,
-				E9F198F1279F1D2100523B54 /* ContentView.swift */,
+				E9F198F1279F1D2100523B54 /* PiecesView.swift */,
 				E9F198F3279F1D2200523B54 /* Assets.xcassets */,
 				E9F198F5279F1D2200523B54 /* Preview Content */,
 			);
@@ -65,6 +186,62 @@
 				E9F198F6279F1D2200523B54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9F198FD279F1D4700523B54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9F1991C279F1FEB00523B54 /* Components */,
+				E9F19908279F1EAE00523B54 /* Galaxy.swift */,
+				E9F1990A279F1EBB00523B54 /* LogIn.swift */,
+				E9F1990C279F1EC500523B54 /* SignUp.swift */,
+				E9F1990E279F1ECE00523B54 /* ChooseTheme.swift */,
+				E9F19910279F1FA300523B54 /* NewEntry.swift */,
+				E9F19912279F1FAB00523B54 /* ViewEntry.swift */,
+				E9F19914279F1FB300523B54 /* Calendar.swift */,
+				E9F19916279F1FBE00523B54 /* UploadPicture.swift */,
+				E9F19918279F1FC700523B54 /* Settings.swift */,
+				E9F19923279F205F00523B54 /* ChooseMood.swift */,
+				E9F19925279F206C00523B54 /* Profile.swift */,
+				E9F1992B279F212100523B54 /* AddImage.swift */,
+				E9F1992D279F212E00523B54 /* AddLink.swift */,
+				E9D34F7F27A5FD8D004EAAEE /* UIKit Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9F198FE279F1E3E00523B54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F198FF279F1E4F00523B54 /* User.swift */,
+				E9F19901279F1E5C00523B54 /* Entry.swift */,
+				E9F19906279F1E9D00523B54 /* Dairy.swift */,
+				E9F19933279F21C400523B54 /* Theme.swift */,
+				E9F19935279F23FB00523B54 /* Emoticon.swift */,
+				E9F19937279F29D700523B54 /* GalaxyRing.swift */,
+				E9DFD8D627A09AAE00702389 /* Debug.swift */,
+				E9D34F7727A4BFF8004EAAEE /* EmoticonMoods.swift */,
+				E9D34F7927A4D085004EAAEE /* File.swift */,
+				E9E3C8B827AE84DD00A9CD8A /* Labels.swift */,
+				E9E3C8BA27B197DF00A9CD8A /* AppUsers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9F1991C279F1FEB00523B54 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E9F1991A279F1FDD00523B54 /* Mood.swift */,
+				E9F1991D279F200000523B54 /* Socials.swift */,
+				E9F1991F279F201C00523B54 /* ProfilePicture.swift */,
+				E9F19921279F204900523B54 /* UserHeader.swift */,
+				E9F19927279F20E200523B54 /* MoodListLight.swift */,
+				E9F19929279F20F800523B54 /* TextEdit.swift */,
+				E9F1992F279F214C00523B54 /* EntryCard.swift */,
+				E9F19931279F216900523B54 /* EntryCourasol.swift */,
+				E9DFD8D827A0A8D600702389 /* SixRings.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +302,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DFD8CA27A08F9A00702389 /* Lato-Black.ttf in Resources */,
+				E9DFD8D227A08FAD00702389 /* Lato-ThinItalic.ttf in Resources */,
+				E9DFD8CC27A08F9E00702389 /* Lato-Bold.ttf in Resources */,
 				E9F198F7279F1D2200523B54 /* Preview Assets.xcassets in Resources */,
+				E9DFD8CF27A08FA500702389 /* Lato-Light.ttf in Resources */,
+				E9DFD8D127A08FAB00702389 /* Lato-Thin.ttf in Resources */,
+				E9DFD8CB27A08F9C00702389 /* Lato-BlackItalic.ttf in Resources */,
+				E9DFD8C927A08F9700702389 /* Lato-LightItalic.ttf in Resources */,
+				E9DFD8CD27A08FA100702389 /* Lato-BoldItalic.ttf in Resources */,
+				E9DFD8D027A08FA900702389 /* Lato-Regular.ttf in Resources */,
+				E9DFD8CE27A08FA300702389 /* Lato-Italic.ttf in Resources */,
 				E9F198F4279F1D2200523B54 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +324,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9F198F2279F1D2100523B54 /* ContentView.swift in Sources */,
+				E9F19934279F21C400523B54 /* Theme.swift in Sources */,
+				E9DFD8D727A09AAE00702389 /* Debug.swift in Sources */,
+				E9F1992A279F20F800523B54 /* TextEdit.swift in Sources */,
+				E9D34F7E27A5FD5A004EAAEE /* ImagePicker.swift in Sources */,
+				E9F1990F279F1ECE00523B54 /* ChooseTheme.swift in Sources */,
+				E9F19938279F29D700523B54 /* GalaxyRing.swift in Sources */,
+				E9F19926279F206C00523B54 /* Profile.swift in Sources */,
+				E9F19909279F1EAE00523B54 /* Galaxy.swift in Sources */,
+				E9F1990B279F1EBB00523B54 /* LogIn.swift in Sources */,
+				E9F19928279F20E200523B54 /* MoodListLight.swift in Sources */,
+				E9F19911279F1FA300523B54 /* NewEntry.swift in Sources */,
+				E9F19930279F214C00523B54 /* EntryCard.swift in Sources */,
+				E9F19919279F1FC700523B54 /* Settings.swift in Sources */,
+				E9E3C8BB27B197DF00A9CD8A /* AppUsers.swift in Sources */,
+				E9F19907279F1E9D00523B54 /* Dairy.swift in Sources */,
+				E9E3C8B927AE84DD00A9CD8A /* Labels.swift in Sources */,
+				E9DFD8D927A0A8D600702389 /* SixRings.swift in Sources */,
+				E9D34F7827A4BFF8004EAAEE /* EmoticonMoods.swift in Sources */,
+				E9F1991E279F200000523B54 /* Socials.swift in Sources */,
+				E9F19920279F201C00523B54 /* ProfilePicture.swift in Sources */,
+				E9F19913279F1FAB00523B54 /* ViewEntry.swift in Sources */,
+				E9F19902279F1E5C00523B54 /* Entry.swift in Sources */,
+				E9F19917279F1FBE00523B54 /* UploadPicture.swift in Sources */,
+				E9F1992C279F212100523B54 /* AddImage.swift in Sources */,
+				E9D34F8127A5FDA5004EAAEE /* EditorView.swift in Sources */,
+				E9F19922279F204900523B54 /* UserHeader.swift in Sources */,
+				E9F19924279F205F00523B54 /* ChooseMood.swift in Sources */,
+				E9F19915279F1FB300523B54 /* Calendar.swift in Sources */,
+				E9F1991B279F1FDD00523B54 /* Mood.swift in Sources */,
+				E9F19932279F216900523B54 /* EntryCourasol.swift in Sources */,
+				E9F1990D279F1EC500523B54 /* SignUp.swift in Sources */,
+				E9F198F2279F1D2100523B54 /* PiecesView.swift in Sources */,
 				E9F198F0279F1D2100523B54 /* PiecesApp.swift in Sources */,
+				E9F19900279F1E4F00523B54 /* User.swift in Sources */,
+				E9F1992E279F212E00523B54 /* AddLink.swift in Sources */,
+				E9D34F7A27A4D085004EAAEE /* File.swift in Sources */,
+				E9F19936279F23FB00523B54 /* Emoticon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +494,7 @@
 				DEVELOPMENT_TEAM = 79YWCY328H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pieces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +524,7 @@
 				DEVELOPMENT_TEAM = 79YWCY328H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pieces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

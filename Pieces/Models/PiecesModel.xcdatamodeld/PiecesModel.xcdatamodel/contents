@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Diary" representedClassName="Diary" syncable="YES">
+        <relationship name="belongs_to" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User"/>
+        <relationship name="contains" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entry"/>
+    </entity>
+    <entity name="Emoticon" representedClassName="Emoticon" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="emoji" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify"/>
+        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify"/>
+    </entity>
+    <entity name="Entry" representedClassName="Entry" syncable="YES">
+        <attribute name="can_delete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="entry" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="has" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Emoticon"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profile_picture" optional="YES" attributeType="Binary"/>
+        <attribute name="theme" optional="YES" attributeType="Transformable"/>
+        <relationship name="has" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Emoticon"/>
+    </entity>
+    <elements>
+        <element name="Entry" positionX="-34.88671875" positionY="-913.8125" width="94.68359375" height="148"/>
+        <element name="Emoticon" positionX="-156.53125" positionY="-1157.45703125" width="128" height="133"/>
+        <element name="User" positionX="109.75" positionY="-1292.75390625" width="128" height="89"/>
+        <element name="Diary" positionX="128.3984375" positionY="-1022.0390625" width="128" height="59"/>
+    </elements>
+</model>

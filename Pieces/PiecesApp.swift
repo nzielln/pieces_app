@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PiecesApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                PiecesView()
+            }
         }
     }
 }
